@@ -1,5 +1,7 @@
-.main{
-    background-color: #2f303a;
+@import '../utils/variables';
+
+.main {
+  background-color: getColor(dark-background);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -10,19 +12,16 @@
   width: 1600px;
 
   &__tittle {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.364;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-  width: 696px;
-  margin: 0 auto;
-  margin-top: 102.667px;
-  margin-bottom: 30px;
- }
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: getColor(font-light);
+    width: 696px;
+    margin: 0 auto;
+    margin-top: 102.667px;
+    margin-bottom: 30px;
+  }
 }
-
-
-
