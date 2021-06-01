@@ -204,6 +204,7 @@ img {
 
 .header {
   border-bottom: 1px solid #ececec;
+  width: 1200px;
 }
 
 .navigation-list {
@@ -440,7 +441,7 @@ img {
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
 
 .join {
