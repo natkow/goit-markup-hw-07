@@ -9,14 +9,16 @@
 
 .header {
   border-bottom: 1px solid #ececec;
+  width:1200px;
 }
 
 .navigation-list {
   display: flex;
   align-items: center;
-  margin-right: 300px;
+  margin-right: 270px;
   width: 307px;
   position: relative;
+  margin-left: 93px;
   &__item {
     display: block;
     padding-right: 46px;

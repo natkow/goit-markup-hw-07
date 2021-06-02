@@ -1,7 +1,6 @@
 @import '../utils/variables';
 
 .logo{
-  margin-right: 93px;
   margin-left: 15px; 
   font-weight: 700;
   font-size: 26px;
@@ -12,7 +11,10 @@
 
   &__first{
       color: getColor(active);
-      margin-left: 0;
+  }
+
+  &--margin-left{
+      margin-left: 60px;
   }
 
   &__second{
