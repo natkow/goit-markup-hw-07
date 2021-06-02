@@ -126,10 +126,11 @@ img {
   padding-bottom: 30px;
   justify-content: center;
   color: white;
+  width: 270px;
 }
 .media--dark {
   background-color: #2f303a;
-  margin-left: -620px;
+  margin-left: -30px;
 }
 .media__link {
   width: 44px;
@@ -198,8 +199,8 @@ img {
 .header .container {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .header {
@@ -227,7 +228,7 @@ img {
   position: absolute;
   width: 53px;
   height: 4px;
-  top: 52px;
+  top: 44px;
   background: #2196f3;
   border-radius: 2px;
   transform: translateX(-55px);
