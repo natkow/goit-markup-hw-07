@@ -65,9 +65,6 @@ img {
 .logo__first {
   color: #2196f3;
 }
-.logo--margin-left {
-  margin-left: 100px;
-}
 .logo__second {
   color: #fff;
   margin-left: 0;
@@ -217,16 +214,16 @@ img {
 
 .header {
   border-bottom: 1px solid #ececec;
-  width: 1200px;
+  width: 1600px;
 }
 
 .navigation-list {
   display: flex;
   align-items: center;
-  margin-right: 180px;
-  width: 307px;
+  margin-right: 110px;
+  width: 370px;
   position: relative;
-  margin-left: 170px;
+  margin-left: -30px;
 }
 .navigation-list__item {
   display: block;
