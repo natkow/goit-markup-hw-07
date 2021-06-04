@@ -9,16 +9,29 @@
 
 .header {
   border-bottom: 1px solid #ececec;
-  width:1600px;
+  
+  // position: relative;
+  
+  &--portfolio{
+    width:1600px;
+  }
+  // &--border{
+  //   content:" ";
+  //   position: absolute;
+  //   width: 1600px ;
+  //   height:1px;
+  //   top:0px;
+
+  // }
 }
 
 .navigation-list {
   display: flex;
   align-items: center;
-  margin-right: 110px;
+  margin-right: 80px;
   width: 370px;
   position: relative;
-  margin-left: -30px;
+  margin-left: 93px;
   
   &__item {
     display: block;
