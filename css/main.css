@@ -2,6 +2,11 @@
   width: 1200px;
   margin: 0 auto;
 }
+.container--space-between {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -61,7 +66,7 @@ img {
   color: #2196f3;
 }
 .logo--margin-left {
-  margin-left: 60px;
+  margin-left: 100px;
 }
 .logo__second {
   color: #fff;
@@ -218,10 +223,10 @@ img {
 .navigation-list {
   display: flex;
   align-items: center;
-  margin-right: 270px;
+  margin-right: 180px;
   width: 307px;
   position: relative;
-  margin-left: 93px;
+  margin-left: 170px;
 }
 .navigation-list__item {
   display: block;
